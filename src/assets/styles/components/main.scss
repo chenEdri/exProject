@@ -1,0 +1,129 @@
+body {
+    background-color: lightblue;
+}
+
+/*TIME SEASON */
+
+.timeZone{
+    background-color: #fff;
+    border: 2px solid black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.app{
+    padding: 2rem;
+    background-color: rgba(143, 161, 241, 0.842);
+}
+
+.winter{
+    width: 60px;
+    height: 60px;
+    background: url(../../imgs/winter.png) 0 0;
+}
+
+.summer{
+    width: 130px;
+    height: 150px;
+    background: url(../../imgs/summer.png) 257px 0;
+}
+
+
+.spring{
+    width: 46px;
+    height: 44px;
+    background: url(../../imgs/seasons.png) 0 0;
+}
+
+.autumn{
+    width: 46px;
+    height: 44px;
+    background: url(../../imgs/seasons.png) 0 0;
+}
+
+.dark{
+    background-color: darkblue;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.bright{
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* COUNT DOWN */
+
+.counter-cointainer{
+    margin: 10px 0;
+    border: 2px solid black;
+    width: 50vw;
+    background-color: rgb(226, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.countDown{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.red{
+    color: red;
+}
+
+/* Whos Watching? */
+
+.who-watch{
+    display: flex;
+    flex-direction: column;
+}
+
+.users-list{
+   display: grid;
+   grid-auto-rows: 1,1fr;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 5px;
+}
+
+.user-preview{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.img-profile{
+    width: 60px;
+    height: 60px;
+}
+
+.img-profile:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tv-shows{
+    visibility: hidden;
+}
+
+/* mose ev */
+
+.Mouse-ev{
+    background-color: #222222;
+    color: white;
+    border: 2px solid white;
+    width: 15rem;
+    margin: 0 auto;
+}
